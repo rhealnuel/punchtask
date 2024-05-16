@@ -41,7 +41,7 @@ const ScreeningProcess = () => {
                                         <img src={img2} alt="screen1" />
                                         <p className='text-[16px]'> <span className='font-bold'>Step {index + 1}:</span> {screen}</p>
                                     </div>
-                                    <p className='text-[16px] w-[531px]'>
+                                    <p className='text-[16px] lg:w-[531px] '>
                                         Candidates are assessed through skill based questions in a virtual setting. 
                                         Allowing you to gauge personality and cultural fit.
                                     </p>
