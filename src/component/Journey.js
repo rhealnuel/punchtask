@@ -24,7 +24,7 @@ const Journey = () => {
               <div className='text-center pb-20'>
                   <p className='font-[700] text-[36px] lg:text-[54px] '>Start your journey today.</p>
               </div>
-
+{/* first section */}
 
           <div >
                   <div className=' bg-[#EDEFFF] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg]'>
@@ -50,7 +50,7 @@ const Journey = () => {
                     </div>
                   </div>
  
-
+{/* second section */}
                   <div className=' bg-[#FFF7E1] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg] mt-8'>
                     <div className='rotate-[3deg] skew-x-[3deg] flex gap-6 relative'>
 
@@ -74,7 +74,7 @@ const Journey = () => {
                     </div>
                   </div>
             
-
+{/* third section */}
               
 
                   <div className=' bg-[#F3F3F3] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg] mt-8'>

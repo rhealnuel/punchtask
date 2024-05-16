@@ -9,7 +9,7 @@ const HowItWorked = () => {
   return (
     <div className='' >
         <div className=' mt-[40px] h-fit py-[190px] bg-[#202229] text-white flex flex-col lg:flex-row items-center justify-between  lg:pl-10 lg:pr-[229px]   '>
-            
+            {/*first section  */}
             <div className='flex flex-col gap-6 lg:gap-16 items-center lg:items-start  pb-28 '>
 
                 <div className=' lg:w-[379px] w-[90%] text-center lg:text-start'>
@@ -31,7 +31,7 @@ const HowItWorked = () => {
                 </div> 
             </div>
 
-
+{/* second section */}
              
             <div className='flex flex-col gap-8 lg:gap-12 items-center lg:items-start'>
                 <div className='flex lg:flex-row flex-col text-center lg:text-start lg:gap-4 items-center lg:items-start'>

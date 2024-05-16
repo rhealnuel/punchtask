@@ -23,7 +23,7 @@ import cinema from "../assets/cinema.svg"
 
 
 const MarketPlace = () => {
-
+// rray this we have achieved
     const earns = [
         {
             id:1,
@@ -41,7 +41,7 @@ const MarketPlace = () => {
             text: "1011 Profiles"
         },
     ]
-
+//array for IT
     const IT = [
         {
             image: shopify,
@@ -64,7 +64,7 @@ const MarketPlace = () => {
             text: "Dotnet Developer"
         },
     ]
-
+    //array for designs
     const design = [
         {
             image: figma,
@@ -103,7 +103,7 @@ const MarketPlace = () => {
             
             <div className=' grid lg:grid-cols-2 w-[85%] justify-center  items-center  lg:pr-20 gap-y-10 '>
 
-
+{/* achievements */}
                 <div className='flex flex-col gap-4 w-[100%] lg:w-[380px]'>
                     <p className='text-[18px] lg:text-[24px]  leading-tight font-[500]'>Find Dev and IT professionals to scale your business.</p>
                     <div className='grid grid-cols-2 text-[16px] font-[400] text-[#202229] gap-y-3'>
@@ -117,7 +117,7 @@ const MarketPlace = () => {
                         }
                     </div>
                 </div>
-
+{/* IT and development */}
 
                 <div className='flex flex-col  gap-4 bg-[#FFFFFF] p-4 rounded-[7px] w-[100%] lg:w-fit '>
                     <p className='text-[16px] font-[500] '>IT & Development</p>
@@ -141,7 +141,7 @@ const MarketPlace = () => {
 
                     </div>
                 </div>
-
+{/* achievements */}
 
                 <div className='flex flex-col gap-4 w-[100%] lg:w-[380px]'>
                     <p className='text-[18px] lg:text-[24px]  leading-tight font-[500]'>Explore Creative individuals with a keen eye for detail.  </p>
