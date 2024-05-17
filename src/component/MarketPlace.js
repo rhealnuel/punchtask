@@ -104,7 +104,7 @@ const MarketPlace = () => {
             <div className=' grid lg:grid-cols-2 w-[85%] justify-center  items-center  lg:pr-20 gap-y-10 '>
 
 {/* achievements */}
-                <div className='flex flex-col gap-4 w-[100%] lg:w-[380px]'>
+                <div className='flex flex-col gap-4 w-[100%] lg:w-[380px]' data-aos="fade-up">
                     <p className='text-[18px] lg:text-[24px]  leading-tight font-[500]'>Find Dev and IT professionals to scale your business.</p>
                     <div className='grid grid-cols-2 text-[16px] font-[400] text-[#202229] gap-y-3'>
                         {
@@ -119,7 +119,7 @@ const MarketPlace = () => {
                 </div>
 {/* IT and development */}
 
-                <div className='flex flex-col  gap-4 bg-[#FFFFFF] p-4 rounded-[7px] w-[100%] lg:w-fit '>
+                <div className='flex flex-col  gap-4 bg-[#FFFFFF] p-4 rounded-[7px] w-[100%] lg:w-fit ' data-aos="fade-down-left">
                     <p className='text-[16px] font-[500] '>IT & Development</p>
                     <div className='grid grid-cols-2  lg:grid-cols-6 gap-6 '>
                         {
@@ -143,7 +143,7 @@ const MarketPlace = () => {
                 </div>
 {/* achievements */}
 
-                <div className='flex flex-col gap-4 w-[100%] lg:w-[380px]'>
+                <div className='flex flex-col gap-4 w-[100%] lg:w-[380px]' data-aos="fade-down" >
                     <p className='text-[18px] lg:text-[24px]  leading-tight font-[500]'>Explore Creative individuals with a keen eye for detail.  </p>
                     <div className='grid grid-cols-2 text-[16px] font-[400] text-[#202229] gap-y-3'>
                         {
@@ -158,7 +158,7 @@ const MarketPlace = () => {
                 </div>
 
 
-                <div className='flex flex-col gap-4 bg-[#FFFFFF] p-4 rounded-[7px] w-[100%] lg:w-fit'>
+                <div className='flex flex-col gap-4 bg-[#FFFFFF] p-4 rounded-[7px] w-[100%] lg:w-fit' data-aos="fade-up">
                     <p className='text-[16px] font-[500] '>IT & Development</p>
                     <div className='grid grid-cols-2  lg:grid-cols-6 gap-6 '>
                         <div className='flex flex-col items-center '>

@@ -18,7 +18,7 @@ const FAQ = () => {
             <div className='flex justify-center pb-20 text-center lg:text-start ' >
                 <p className='text-[36px] lg:text-[54px] font-[700]'>FREQUENTLY ASKED QUESTIONS</p>
             </div>
-            <div>
+            <div data-aos="fade-down">
                 <div className='grid grid-cols-3  lg:grid-cols-6'>
                     <div className='cursor-pointer border h-[80px] flex items-center justify-center font-bold'>General</div>
                     <div className='cursor-pointer col-span-2 pl-2 lg:pl-0 lg:col-span-5 border h-[80px] flex items-center justify-center font-bold'>I want to work part-time, is that possible</div>
@@ -35,7 +35,7 @@ const FAQ = () => {
             </div>
 
             
-            <div >
+            <div data-aos="fade-up">
                 <div className='grid grid-cols-2 lg:grid-cols-6'>
                     <div className='border h-[80px] flex items-center justify-center font-bold'>General</div>
                     <div className='cursor-pointer col-span-1 border h-[80px] flex items-center justify-center font-bold'>Joining Process</div>

@@ -21,22 +21,22 @@ const Hero = () => {
 
   return (
     <div>
-        <div className='flex flex-col items-center gap-6 py-10 lg:py-24'>
-            <div className="inline-block text-center text-[36px] lg:text-[54px] font-[700] w-[80%] leading-tight">
+        <div className='flex flex-col items-center gap-6 py-10 lg:py-24' >
+            <div className="inline-block text-center text-[36px] lg:text-[54px] font-[700] w-[80%] leading-tight" data-aos="fade-down">
                 <p className=" inline-block">Finding the right fit
                 <img src={head} alt="head" className="inline-block" />
                 has never been easier</p>
             </div>
-            <div className='w-[80%] lg:w-[38%] text-center text-[16px] lg:text-[22px]'>
+            <div className='w-[80%] lg:w-[38%] text-center text-[16px] lg:text-[22px] ' data-aos="fade-left">
               <p>With our rigorous pre-vetting process, you'll never have to worry
                 about finding the ideal candidate ever again.</p>
             </div>
-            <div className='flex justify-between items-center w-[90%] lg:w-[38%] h-fit border-[1.5px] border-[#F0F0F0] rounded-[15px] pl-6 '>
+            <div className='flex justify-between items-center w-[90%] lg:w-[38%] h-fit border-[1.5px] border-[#F0F0F0] rounded-[15px] pl-6 'data-aos="fade-right">
               <p className='text-[14px] lg:text-[16px]'>Looking for <span className='text-[#959595]'>design |</span></p>
               <img src={search} alt="search" className=' w-[50px] lg:w-[74px]'/>
             </div>
 
-            <div className='lg:w-[67%] w-[90%] bg-[#F8F8F8] flex flex-col items-center justify-center gap-6 py-4 rounded-[15px]'>
+            <div className='lg:w-[67%] w-[90%] bg-[#F8F8F8] flex flex-col items-center justify-center gap-6 py-4 rounded-[15px]' data-aos="fade-up" >
                 <div className='w-fit flex justify-center bg-[#D2D2D2] rounded-[15px]'>
                     {
                       departments.map((department) => (

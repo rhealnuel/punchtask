@@ -12,7 +12,7 @@ const ScreeningProcess = () => {
 
 
   return (
-    <div className=' rotate-[-1deg] h-full bg-white  lg:w-screen mt-[-20px]'>
+    <div className=' rotate-[-1deg] h-full bg-white  lg:w-screen mt-[-20px]' data-aos="fade-up">
         <div className=' py-36 lg:px-10 px-4 flex flex-col gap-8 rotate-[1deg]'>
             <div className='lg:w-[646px] flex flex-col gap-4 lg:gap-8 text-center lg:text-start'>
                 <p className='text-[36px] lg:text-[54px] leading-tight lg:leading-[64px] font-[700]'>How we ensure you’re in good hands.</p>
@@ -25,7 +25,7 @@ const ScreeningProcess = () => {
 
 
 
-            <div className='flex flex-col gap-4'>
+            <div className='flex flex-col gap-4' data-aos="fade-up">
                 {
                     screen.map((screen, index) => (
 
@@ -41,7 +41,7 @@ const ScreeningProcess = () => {
                                         <img src={img2} alt="screen1" />
                                         <p className='text-[16px]'> <span className='font-bold'>Step {index + 1}:</span> {screen}</p>
                                     </div>
-                                    <p className='text-[16px] lg:w-[531px] '>
+                                    <p className='text-[16px] lg:w-[531px]  '>
                                         Candidates are assessed through skill based questions in a virtual setting. 
                                         Allowing you to gauge personality and cultural fit.
                                     </p>

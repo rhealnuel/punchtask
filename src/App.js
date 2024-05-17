@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from './component/Hero'
 import MarketPlace from './component/MarketPlace'
 import HowItWorked from './component/HowItWorked'
@@ -9,11 +9,15 @@ import Footer from './component/Footer'
 import Board from './component/Board'
 import { ThemeProvider } from "@material-tailwind/react";
 import ResponsiveNav from './component/ResponsiveNav'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 const App = () => {
+  useEffect(() =>{
+    AOS.init()
+  }, [])
   return (
       <ThemeProvider>
         <div className='bg-white h-fit overflow-hidden '>
