@@ -29,7 +29,7 @@ const Journey = () => {
 {/* first section */}
 
           <div >
-                  <div className=' bg-[#EDEFFF] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg]' ">
+                  <div className=' bg-[#EDEFFF] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg]' >
                     <div className='rotate-[3deg] skew-x-[3deg] flex gap-6 relative'>
 
                           <div>
