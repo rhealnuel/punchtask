@@ -26,7 +26,7 @@ const Footer = () => {
     <div className='bg-[#0C0C0C] ' >
         <div className='w-screen h-full py-20 flex flex-col items-center'>
 
-            <div className='bg-[#525AA0] w-[90%] rounded-2xl  lg:w-[80%] h-[460px] flex flex-col items-center justify-center text-center gap-8 rotate-[-3deg] skew-x-[-3deg]' data-aos="fade-down">
+            <div className='bg-[#525AA0] w-[90%] rounded-2xl  lg:w-[80%] h-[460px] flex flex-col items-center justify-center text-center gap-8 rotate-[-3deg] skew-x-[-3deg]' >
                 <p className='font-[600] text-[36px] lg:text-[54px] text-white lg:w-[680px] leading-[64px] rotate-[3deg]'>Need a job done, and done well? Get started</p>
                 <img src={next} alt="more" className=' rotate-[93deg] ' />
             </div>
