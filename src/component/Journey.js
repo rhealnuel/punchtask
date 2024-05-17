@@ -29,7 +29,7 @@ const Journey = () => {
 {/* first section */}
 
           <div >
-                  <div className=' bg-[#EDEFFF] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg]' data-aos="fade-down-right">
+                  <div className=' bg-[#EDEFFF] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg]' ">
                     <div className='rotate-[3deg] skew-x-[3deg] flex gap-6 relative'>
 
                           <div>
@@ -53,7 +53,7 @@ const Journey = () => {
                   </div>
  
 {/* second section */}
-                  <div className=' bg-[#FFF7E1] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg] mt-8' data-aos="fade-right">
+                  <div className=' bg-[#FFF7E1] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg] mt-8' >
                     <div className='rotate-[3deg] skew-x-[3deg] flex gap-6 relative'>
 
                           <div>
@@ -79,7 +79,7 @@ const Journey = () => {
 {/* third section */}
               
 
-                  <div className=' bg-[#F3F3F3] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg] mt-8' data-aos="fade-up-left">
+                  <div className=' bg-[#F3F3F3] h-fit py-20 px-10 rotate-[-3deg] overflow-y-hidden skew-x-[-3deg] mt-8' >
                     <div className='rotate-[3deg] skew-x-[3deg] flex gap-6 relative'>
 
                           <div>
